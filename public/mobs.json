@@ -1,0 +1,3089 @@
+[
+  {
+    "id": "ender_dragon",
+    "name": "Ender Dragon",
+    "name_pl": "Smok Kresu",
+    "category": "boss",
+    "category_pl": "Boss",
+    "hp": 200,
+    "hearts": 100,
+    "filename": "Ender_Dragon.png",
+    "image": "/boss/Ender_Dragon.png",
+    "image_path": "/public/boss/Ender_Dragon.png",
+    "src": "/boss/Ender_Dragon.png",
+    "behavior": "Boss",
+    "behavior_pl": "Boss",
+    "attack": "6 - 15 (Melee / Dragon Breath / Fireball)",
+    "dimensions": {
+      "height": 8,
+      "width": 16
+    },
+    "dimension": [
+      "The End"
+    ],
+    "spawn": "The End (Central Island)",
+    "spawn_pl": "Kres (Wyspa centralna)",
+    "drops": [
+      "Dragon Egg",
+      "12000 XP"
+    ],
+    "drops_pl": [
+      "Jajo smoka",
+      "12 000 XP"
+    ],
+    "experience": 12000,
+    "description": "The massive flying boss of The End. It heals from End Crystals atop obsidian pillars and shoots lethal Dragon Fireballs that linger as acidic breath.",
+    "description_pl": "Potężny latający boss Kresu. Leczy się przy użyciu kryształów kresu na szczytach obsydianowych filarów i zieje smoczym oddechem."
+  },
+  {
+    "id": "wither",
+    "name": "Wither",
+    "name_pl": "Wither",
+    "category": "boss",
+    "category_pl": "Boss",
+    "hp": 300,
+    "hearts": 150,
+    "filename": "Wither.png",
+    "image": "/boss/Wither.png",
+    "image_path": "/public/boss/Wither.png",
+    "src": "/boss/Wither.png",
+    "behavior": "Boss",
+    "behavior_pl": "Boss",
+    "attack": "5 - 12 (Wither Skulls + Wither II effect)",
+    "dimensions": {
+      "height": 3.5,
+      "width": 0.9
+    },
+    "dimension": [
+      "Any"
+    ],
+    "spawn": "Spawned by player with 4 Soul Sand/Soul Soil in a T-shape and 3 Wither Skeleton Skulls",
+    "spawn_pl": "Przywoływany przez gracza za pomocą 4 bloków piasku dusz/gleby dusz i 3 czaszek mrocznego szkieletu",
+    "drops": [
+      "Nether Star"
+    ],
+    "drops_pl": [
+      "Gwiazda Netheru"
+    ],
+    "experience": 50,
+    "description": "A terrifying player-summoned floating undead boss that shoots explosive skulls inflicting the deadly Wither status effect. Drops a Nether Star upon defeat.",
+    "description_pl": "Latający boss nieumarłych przywoływany przez gracza. Strzela wybuchowymi czaszkami nakładającymi efekt Withera. Po pokonaniu upuszcza Gwiazdę Netheru."
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "name_pl": "Płomyk",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Blaze.gif",
+    "image": "/hostile/Blaze.gif",
+    "image_path": "/public/hostile/Blaze.gif",
+    "src": "/hostile/Blaze.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "4 - 9 + Fire",
+    "dimensions": {
+      "height": 1.8,
+      "width": 0.6
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether Fortresses (Spawners and naturally)",
+    "spawn_pl": "Twierdze w Netherze (ze spawnerów i naturalnie)",
+    "drops": [
+      "Blaze Rod"
+    ],
+    "drops_pl": [
+      "Płomienna różdżka"
+    ],
+    "experience": 10,
+    "description": "Floating fiery mobs found guarding Nether Fortresses. They hover and shoot rapid bursts of fireballs at intruders.",
+    "description_pl": "Latający ognisty mob strzegący twierdz w Netherze. Unosi się w powietrzu i miota seriami ognistych kul."
+  },
+  {
+    "id": "bogged",
+    "name": "Bogged",
+    "name_pl": "Bagiennik",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Bogged.png",
+    "image": "/hostile/Bogged.png",
+    "image_path": "/public/hostile/Bogged.png",
+    "src": "/hostile/Bogged.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2 - 5 + Poison",
+    "dimensions": {
+      "height": 1.99,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Swamps, Mangrove Swamps, and Trial Chambers",
+    "spawn_pl": "Bagna, bagna namorzynowe i komnaty prób",
+    "drops": [
+      "Arrow",
+      "Tipped Arrow of Poison",
+      "Bone",
+      "Mushrooms (sheared)"
+    ],
+    "drops_pl": [
+      "Strzała",
+      "Strzała zatruta",
+      "Kość",
+      "Grzyby (po ostrzyżeniu)"
+    ],
+    "experience": 5,
+    "description": "A moss- and mushroom-covered skeleton variant that fires poison-tipped arrows. Mushrooms can be sheared from its head.",
+    "description_pl": "Wariant szkieletu porośnięty mchem i grzybami, strzelający zatrutymi strzałami. Grzyby z jego głowy można ściąć nożycami."
+  },
+  {
+    "id": "breeze",
+    "name": "Breeze",
+    "name_pl": "Bryza",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 30,
+    "hearts": 15,
+    "filename": "Breeze.webp",
+    "image": "/hostile/Breeze.webp",
+    "image_path": "/public/hostile/Breeze.webp",
+    "src": "/hostile/Breeze.webp",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "1 - 3 (Wind Charge knockback)",
+    "dimensions": {
+      "height": 1.77,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Trial Chambers (from Trial Spawners)",
+    "spawn_pl": "Komnaty prób (ze spawnerów prób)",
+    "drops": [
+      "Breeze Rod"
+    ],
+    "drops_pl": [
+      "Różdżka bryzy"
+    ],
+    "experience": 10,
+    "description": "A bouncy, whirling hostile mob found in Trial Chambers. It leaps around and shoots projectile wind charges that trigger trapdoors, doors, and knock players back.",
+    "description_pl": "Wirujący, skaczący wrogi mob spotykany w komnatach prób. Wystrzeliwuje ładunki wiatru, które odrzucają gracza i aktywują mechanizmy."
+  },
+  {
+    "id": "creaking",
+    "name": "Creaking",
+    "name_pl": "Skrzypak",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 1,
+    "hearts": 0.5,
+    "filename": "Creaking.png",
+    "image": "/hostile/Creaking.png",
+    "image_path": "/public/hostile/Creaking.png",
+    "src": "/hostile/Creaking.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2 - 3",
+    "dimensions": {
+      "height": 2.7,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Pale Garden biome at night",
+    "spawn_pl": "Blady ogród w nocy",
+    "drops": [
+      "Resin Clump (via Creaking Heart)"
+    ],
+    "drops_pl": [
+      "Bryłka żywicy (z serca skrzypaka)"
+    ],
+    "experience": 0,
+    "description": "An eerie wooden creature of the Pale Garden. It freezes in place while being looked at, advances silently when unseen, and can only be defeated by destroying its Creaking Heart block.",
+    "description_pl": "Tajemnicza drewniana istota z bladego ogrodu. Zastyga w bezruchu, gdy gracz na nią patrzy, a rusza się w ukryciu. Można ją pokonać tylko niszcząc jej serce w pniu drzewa."
+  },
+  {
+    "id": "creeper",
+    "name": "Creeper",
+    "name_pl": "Creeper",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Creeper.png",
+    "image": "/hostile/Creeper.png",
+    "image_path": "/public/hostile/Creeper.png",
+    "src": "/hostile/Creeper.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "Up to 49 (Normal) / 97 (Hard) on explosion",
+    "dimensions": {
+      "height": 1.7,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld (Light level 0)",
+    "spawn_pl": "Powierzchnia (poziom światła 0)",
+    "drops": [
+      "Gunpowder",
+      "Music Disc (if shot by Skeleton)",
+      "Creeper Head (if blown up by Charged Creeper)"
+    ],
+    "drops_pl": [
+      "Proch",
+      "Płyta muzyczna (zabity przez szkielet)",
+      "Głowa creepera (zabity przez naładowanego creepera)"
+    ],
+    "experience": 5,
+    "description": "The iconic silent ambusher that sneaks up on players and detonates, destroying blocks and dealing massive explosive damage. Terrified of cats and ocelots.",
+    "description_pl": "Kultowy, bezszelestny potwór, który podkrada się do gracza i wybucha, niszcząc otoczenie. Panicznie boi się kotów i ocelotów."
+  },
+  {
+    "id": "elder_guardian",
+    "name": "Elder Guardian",
+    "name_pl": "Starszy strażnik",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 80,
+    "hearts": 40,
+    "filename": "Elder_Guardian.gif",
+    "image": "/hostile/Elder_Guardian.gif",
+    "image_path": "/public/hostile/Elder_Guardian.gif",
+    "src": "/hostile/Elder_Guardian.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "5 - 12 (Laser beam) + Thorns",
+    "dimensions": {
+      "height": 1.99,
+      "width": 1.99
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Ocean Monument (3 per monument)",
+    "spawn_pl": "Podwodna świątynia (dokładnie 3 na świątynię)",
+    "drops": [
+      "Wet Sponge",
+      "Prismarine Shards",
+      "Prismarine Crystals",
+      "Raw Cod",
+      "Tide Armor Trim"
+    ],
+    "drops_pl": [
+      "Mokra gąbka",
+      "Odłamki pryzmarynu",
+      "Kryształy pryzmarynu",
+      "Surowy dorsz",
+      "Szablon kowalski: Pływy"
+    ],
+    "experience": 10,
+    "description": "A colossal, ancient guardian guarding Ocean Monuments. It afflicts nearby players with Mining Fatigue III and fires piercing eye lasers.",
+    "description_pl": "Potężny, pradawny strażnik podwodnych świątyń. Nakłada na pobliskich graczy zmęczenie kopaniem III i atakuje laserem z oka."
+  },
+  {
+    "id": "endermite",
+    "name": "Endermite",
+    "name_pl": "Endermit",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 8,
+    "hearts": 4,
+    "filename": "Endermite.gif",
+    "image": "/hostile/Endermite.gif",
+    "image_path": "/public/hostile/Endermite.gif",
+    "src": "/hostile/Endermite.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2 - 3",
+    "dimensions": {
+      "height": 0.3,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld",
+      "The End"
+    ],
+    "spawn": "Spawned by player throwing Ender Pearls (5% chance)",
+    "spawn_pl": "Pojawia się z 5% szansą przy rzucie perłą kresu",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 3,
+    "description": "A tiny, aggressive mite that occasionally manifests when an Ender Pearl shatters. Endermen despise Endermites and attack them on sight.",
+    "description_pl": "Mały, fioletowy pasożyt pojawiający się czasami po rzucie perłą kresu. Endermani nienawidzą endermitów i atakują je bez wahania."
+  },
+  {
+    "id": "evoker",
+    "name": "Evoker",
+    "name_pl": "Przywoływacz",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 24,
+    "hearts": 12,
+    "filename": "Evoker.png",
+    "image": "/hostile/Evoker.png",
+    "image_path": "/public/hostile/Evoker.png",
+    "src": "/hostile/Evoker.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "6 (Evoker Fangs, bypasses armor)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Woodland Mansions and Village Raids (wave 5+)",
+    "spawn_pl": "Leśne dwory oraz najazdy na wioski (od 5 fali)",
+    "drops": [
+      "Totem of Undying",
+      "Emerald"
+    ],
+    "drops_pl": [
+      "Totem nieśmiertelności",
+      "Szmaragd"
+    ],
+    "experience": 10,
+    "description": "A sinister illager spellcaster who summons snapping jaw fangs from the ground and conjures swarms of flying Vexes. Guaranteed to drop a Totem of Undying.",
+    "description_pl": "Mroczny mag złosadników przyzywający kłapiące szczęki z ziemi i latające dręczyciele (Vex). Zawsze upuszcza cenny Totem Nieśmiertelności."
+  },
+  {
+    "id": "ghast",
+    "name": "Ghast",
+    "name_pl": "Ghast",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Ghast.gif",
+    "image": "/hostile/Ghast.gif",
+    "image_path": "/public/hostile/Ghast.gif",
+    "src": "/hostile/Ghast.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "9 - 25 (Explosive Fireball)",
+    "dimensions": {
+      "height": 4,
+      "width": 4
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Nether Wastes, Soul Sand Valley, Basalt Deltas)",
+    "spawn_pl": "Nether (Pustkowia Netheru, Dolina Piasku Dusz, Bazaltowe Delty)",
+    "drops": [
+      "Ghast Tear",
+      "Gunpowder"
+    ],
+    "drops_pl": [
+      "Łza ghasta",
+      "Proch"
+    ],
+    "experience": 5,
+    "description": "A gigantic, crying ghost-like mob that floats through the Nether skies, screaming and launching explosive fireballs that can be deflected back with a well-timed hit.",
+    "description_pl": "Ogromny, płaczący latający potwór z Netheru. Strzela wybuchowymi kulami ognia, które można odbić celnym uderzeniem."
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "name_pl": "Strażnik",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 30,
+    "hearts": 15,
+    "filename": "Guardian.gif",
+    "image": "/hostile/Guardian.gif",
+    "image_path": "/public/hostile/Guardian.gif",
+    "src": "/hostile/Guardian.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "4 - 9 (Laser beam) + 2 (Spike Thorns)",
+    "dimensions": {
+      "height": 0.85,
+      "width": 0.85
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Ocean Monuments",
+    "spawn_pl": "Podwodne świątynie",
+    "drops": [
+      "Prismarine Shards",
+      "Prismarine Crystals",
+      "Raw Cod"
+    ],
+    "drops_pl": [
+      "Odłamki pryzmarynu",
+      "Kryształy pryzmarynu",
+      "Surowy dorsz"
+    ],
+    "experience": 10,
+    "description": "A cycloptic, spiky fish-like hostile mob that defends Ocean Monuments with charging lasers and retaliatory thorn spikes.",
+    "description_pl": "Jednooki rybi strażnik strzegący podwodnych świątyń. Atakuje wiązką lasera i rani kolcami w razie ataku wręcz."
+  },
+  {
+    "id": "hoglin",
+    "name": "Hoglin",
+    "name_pl": "Hoglin",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 40,
+    "hearts": 20,
+    "filename": "Hoglin.png",
+    "image": "/hostile/Hoglin.png",
+    "image_path": "/public/hostile/Hoglin.png",
+    "src": "/hostile/Hoglin.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "5 - 12 (Tusk toss with high knockback)",
+    "dimensions": {
+      "height": 1.4,
+      "width": 1.4
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Crimson Forest)",
+    "spawn_pl": "Nether (Szkarłatny las)",
+    "drops": [
+      "Raw Porkchop",
+      "Leather"
+    ],
+    "drops_pl": [
+      "Surowa wieprzowina",
+      "Skóra"
+    ],
+    "experience": 5,
+    "description": "An aggressive, boar-like beast native to the Crimson Forest. Attacks by flinging players into the air with its tusks, but fears Warped Fungus.",
+    "description_pl": "Agresywna dzika bestia ze szkarłatnego lasu w Netherze. Wyrzuca graczy w powietrze potężnymi ciosami kłów, lecz boi się spaczonego grzyba."
+  },
+  {
+    "id": "husk",
+    "name": "Husk",
+    "name_pl": "Posuch",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Husk.png",
+    "image": "/hostile/Husk.png",
+    "image_path": "/public/hostile/Husk.png",
+    "src": "/hostile/Husk.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2.5 - 4.5 + Hunger effect",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld Deserts under open sky",
+    "spawn_pl": "Pustynie na powierzchni pod gołym niebem",
+    "drops": [
+      "Rotten Flesh",
+      "Iron Ingot",
+      "Carrot",
+      "Potato"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Sztabka żelaza",
+      "Marchewka",
+      "Ziemniak"
+    ],
+    "experience": 5,
+    "description": "A dry, desert-adapted zombie variant that does not burn in direct sunlight and inflicts the Hunger status effect upon striking its target.",
+    "description_pl": "Pustynna odmiana zombie, która nie pali się w świetle słonecznym i nakłada efekt głodu przy każdym trafieniu."
+  },
+  {
+    "id": "magma_cube",
+    "name": "Magma Cube",
+    "name_pl": "Kostka magmy",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Magma_Cube.png",
+    "image": "/hostile/Magma_Cube.png",
+    "image_path": "/public/hostile/Magma_Cube.png",
+    "src": "/hostile/Magma_Cube.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "3 - 9 (Big), 2 - 6 (Medium), 1 - 3 (Small)",
+    "dimensions": {
+      "height": 2.04,
+      "width": 2.04
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Basalt Deltas, Nether Wastes, Fortresses)",
+    "spawn_pl": "Nether (Bazaltowe delty, pustkowia, twierdze)",
+    "drops": [
+      "Magma Cream"
+    ],
+    "drops_pl": [
+      "Magmowy krem"
+    ],
+    "experience": 4,
+    "description": "A bouncing, spring-like Nether mob with an incandescent molten core. Splits into smaller cubes when killed, immune to lava and fall damage.",
+    "description_pl": "Sprężynująca kostka z płynnej magmy zamieszkująca Nether. Po zabiciu dzieli się na mniejsze osobniki, całkowicie odporna na lawę i upadek."
+  },
+  {
+    "id": "parched",
+    "name": "Parched",
+    "name_pl": "Wysuszony kościec",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Parched.png",
+    "image": "/hostile/Parched.png",
+    "image_path": "/public/hostile/Parched.png",
+    "src": "/hostile/Parched.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2 - 5 + Weakness effect",
+    "dimensions": {
+      "height": 1.99,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Deserts (Mounts of Mayhem variant)",
+    "spawn_pl": "Pustynie (wariant z aktualizacji Mounts of Mayhem)",
+    "drops": [
+      "Bone",
+      "Arrow of Weakness"
+    ],
+    "drops_pl": [
+      "Kość",
+      "Strzała osłabienia"
+    ],
+    "experience": 5,
+    "description": "An arid desert skeleton variant immune to daylight burning that shoots arrows tipped with the Weakness effect, often riding Camel Husks.",
+    "description_pl": "Pustynny szkielet odporny na słońce, strzelający strzałami osłabienia. Często widywany jako jeździec na wysuszonych wielbłądach."
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "name_pl": "Fantom",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Phantom.gif",
+    "image": "/hostile/Phantom.gif",
+    "image_path": "/public/hostile/Phantom.gif",
+    "src": "/hostile/Phantom.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "4 - 9 (Swoop attack)",
+    "dimensions": {
+      "height": 0.5,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld night sky (if player hasn't slept for 3+ in-game days)",
+    "spawn_pl": "Nocne niebo na powierzchni (gdy gracz nie spał przez 3+ dni w grze)",
+    "drops": [
+      "Phantom Membrane"
+    ],
+    "drops_pl": [
+      "Błona fantoma"
+    ],
+    "experience": 5,
+    "description": "A nightmarish flying undead creature that spawns high in the night sky to harass players who suffer from insomnia. Its membrane repairs Elytra.",
+    "description_pl": "Latający upiór nawiedzający graczy cierpiących na bezsenność (brak snu przez ponad 3 dni). Jego błona służy do naprawy elytry."
+  },
+  {
+    "id": "piglin_brute",
+    "name": "Piglin Brute",
+    "name_pl": "Piglin okrutnik",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 50,
+    "hearts": 25,
+    "filename": "Piglin_Brute.png",
+    "image": "/hostile/Piglin_Brute.png",
+    "image_path": "/public/hostile/Piglin_Brute.png",
+    "src": "/hostile/Piglin_Brute.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "7 - 19 (Golden Axe melee)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Bastion Remnants)",
+    "spawn_pl": "Nether (Bastiony)",
+    "drops": [
+      "Golden Axe (rare)"
+    ],
+    "drops_pl": [
+      "Złoty topór (rzadko)"
+    ],
+    "experience": 20,
+    "description": "An elite, heavily armed warrior defending Bastion Remnants. Unlike normal Piglins, Brutes cannot be distracted by gold or pacified with golden armor.",
+    "description_pl": "Elitarny obrońca bastionów w Netherze. W przeciwieństwie do zwykłych piglinów ignoruje złoty pancerz gracza i nie daje się przekupić złotem."
+  },
+  {
+    "id": "pillager",
+    "name": "Pillager",
+    "name_pl": "Rozbójnik",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 24,
+    "hearts": 12,
+    "filename": "Pillager.png",
+    "image": "/hostile/Pillager.png",
+    "image_path": "/public/hostile/Pillager.png",
+    "src": "/hostile/Pillager.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "3 - 5 (Crossbow)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Pillager Outposts, Patrols, and Village Raids",
+    "spawn_pl": "Posterunki rozbójników, patrole i najazdy na wioski",
+    "drops": [
+      "Crossbow",
+      "Arrow",
+      "Ominous Banner (Captain)",
+      "Emerald"
+    ],
+    "drops_pl": [
+      "Kusza",
+      "Strzała",
+      "Złowrogi sztandar (dowódca)",
+      "Szmaragd"
+    ],
+    "experience": 5,
+    "description": "An illager foot soldier equipped with a crossbow. They patrol the land and raid defenseless villages under banner-bearing raid captains.",
+    "description_pl": "Wrogi złosadnik uzbrojony w kuszę. Patroluje świat w grupach i bierze udział w zorganizowanych najazdach na wioski osadników."
+  },
+  {
+    "id": "ravager",
+    "name": "Ravager",
+    "name_pl": "Dewastator",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 100,
+    "hearts": 50,
+    "filename": "Ravager.png",
+    "image": "/hostile/Ravager.png",
+    "image_path": "/public/hostile/Ravager.png",
+    "src": "/hostile/Ravager.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "7 - 18 (Bite / Ram / Roar)",
+    "dimensions": {
+      "height": 2.2,
+      "width": 1.95
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Village Raids (wave 3+)",
+    "spawn_pl": "Najazdy na wioski (od 3 fali)",
+    "drops": [
+      "Saddle"
+    ],
+    "drops_pl": [
+      "Siodło"
+    ],
+    "experience": 20,
+    "description": "A colossal, monstrous illager beast that charges through village defenses, trampling crops, ramming defenders, and unleashing an ear-splitting roar.",
+    "description_pl": "Olbrzymia bestia bojowa złosadników biorąca udział w najazdach. Tratuje uprawy, odrzuca wrogów taranującym atakiem i ryczy ogłuszając cel."
+  },
+  {
+    "id": "shulker",
+    "name": "Shulker",
+    "name_pl": "Shulker",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 30,
+    "hearts": 15,
+    "filename": "Shulker.png",
+    "image": "/hostile/Shulker.png",
+    "image_path": "/public/hostile/Shulker.png",
+    "src": "/hostile/Shulker.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "4 + Levitation effect",
+    "dimensions": {
+      "height": 1,
+      "width": 1
+    },
+    "dimension": [
+      "The End"
+    ],
+    "spawn": "The End (End Cities)",
+    "spawn_pl": "Kres (Miasta Kresu)",
+    "drops": [
+      "Shulker Shell"
+    ],
+    "drops_pl": [
+      "Skorupa shulkera"
+    ],
+    "experience": 5,
+    "description": "A box-dwelling creature camouflaged as purpur blocks in End Cities. Fires homing bullets that cause players to involuntarily float upwards.",
+    "description_pl": "Stworzenie ukryte w twardej skorupie przypominającej purpurowy blok w Miastach Kresu. Strzela pociskami lewitacji unoszącymi cel w powietrze."
+  },
+  {
+    "id": "silverfish",
+    "name": "Silverfish",
+    "name_pl": "Rybik cukrowy",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 8,
+    "hearts": 4,
+    "filename": "Silverfish.png",
+    "image": "/hostile/Silverfish.png",
+    "image_path": "/public/hostile/Silverfish.png",
+    "src": "/hostile/Silverfish.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "1 - 1.5",
+    "dimensions": {
+      "height": 0.3,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Strongholds (Spawners and infested stone), Mountain biomes",
+    "spawn_pl": "Twierdze (spawner i nawiedzone bloki kamienne), biomy górskie",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 5,
+    "description": "Small, scurrying pests hiding inside infested stone blocks. Attacking one triggers an alarm that summons swarms from nearby infested stone.",
+    "description_pl": "Mały, szybki szkodnik ukrywający się w nawiedzonym kamieniu. Zaatakowany wzywa na pomoc całe roje ukryte w sąsiednich blokach."
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "name_pl": "Szkielet",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Skeleton.png",
+    "image": "/hostile/Skeleton.png",
+    "image_path": "/public/hostile/Skeleton.png",
+    "src": "/hostile/Skeleton.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "1 - 5 (Bow)",
+    "dimensions": {
+      "height": 1.99,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld",
+      "Nether"
+    ],
+    "spawn": "Overworld (Light level 0), Nether Fortresses",
+    "spawn_pl": "Powierzchnia (poziom światła 0), twierdze Netheru",
+    "drops": [
+      "Bone",
+      "Arrow",
+      "Bow (rare)"
+    ],
+    "drops_pl": [
+      "Kość",
+      "Strzała",
+      "Łuk (rzadko)"
+    ],
+    "experience": 5,
+    "description": "A common undead archer armed with a bow. Burns in daylight unless wearing a helmet or submerged in water.",
+    "description_pl": "Powszechny nieumarły łucznik strzelający z łuku z dużej odległości. Płonie w promieniach słońca, chyba że założy hełm lub stoi w wodzie."
+  },
+  {
+    "id": "slime",
+    "name": "Slime",
+    "name_pl": "Szlam",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Slime.png",
+    "image": "/hostile/Slime.png",
+    "image_path": "/public/hostile/Slime.png",
+    "src": "/hostile/Slime.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "4 (Big), 2 (Medium), 0 (Small)",
+    "dimensions": {
+      "height": 2.04,
+      "width": 2.04
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Swamps (at night) and Underground Slime Chunks (below Y=40)",
+    "spawn_pl": "Bagna (w nocy) oraz podziemne chunki szlamu (poniżej Y=40)",
+    "drops": [
+      "Slimeball"
+    ],
+    "drops_pl": [
+      "Kula szlamu"
+    ],
+    "experience": 4,
+    "description": "A gelatinous green bouncy cube. Upon taking fatal damage, big slimes divide into medium ones, which in turn split into tiny slimeball-dropping slimes.",
+    "description_pl": "Zielony, galaretowaty skaczący sześcian. Po śmierci dzieli się na mniejsze osobniki, z których najmniejsze upuszczają cenne kule szlamu."
+  },
+  {
+    "id": "stray",
+    "name": "Stray",
+    "name_pl": "Tułacz",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Stray.png",
+    "image": "/hostile/Stray.png",
+    "image_path": "/public/hostile/Stray.png",
+    "src": "/hostile/Stray.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2 - 5 + Slowness effect",
+    "dimensions": {
+      "height": 1.99,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Frozen and snowy biomes under the open sky",
+    "spawn_pl": "Zimowe i zaśnieżone biomy pod gołym niebem",
+    "drops": [
+      "Arrow",
+      "Tipped Arrow of Slowness",
+      "Bone"
+    ],
+    "drops_pl": [
+      "Strzała",
+      "Strzała spowolnienia",
+      "Kość"
+    ],
+    "experience": 5,
+    "description": "A freezing skeleton variant dressed in ragged cloaks found in snowy tundras. It shoots arrows that heavily slow down players.",
+    "description_pl": "Zimowy wariant szkieletu odziany w podarte łachmany. Strzela strzałami nakładającymi dotkliwe spowolnienie ruchu."
+  },
+  {
+    "id": "vex",
+    "name": "Vex",
+    "name_pl": "Dręczyciel",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 14,
+    "hearts": 7,
+    "filename": "Vex.gif",
+    "image": "/hostile/Vex.gif",
+    "image_path": "/public/hostile/Vex.gif",
+    "src": "/hostile/Vex.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "5.5 - 13.5 (Iron Sword)",
+    "dimensions": {
+      "height": 0.8,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Summoned by Evokers in Woodland Mansions and Raids",
+    "spawn_pl": "Przywoływany przez przywoływacza (Evokera)",
+    "drops": [
+      "Iron Sword (rare)"
+    ],
+    "drops_pl": [
+      "Żelazny miecz (rzadko)"
+    ],
+    "experience": 3,
+    "description": "A tiny, winged fairy-like imp summoned by Evokers. It phases right through solid walls and charges with an iron sword, glowing red before striking.",
+    "description_pl": "Mały, złośliwy skrzydlaty duszek przyzywany przez Evokera. Potrafi przenikać przez lite ściany i szarżować na gracza z żelaznym mieczem."
+  },
+  {
+    "id": "vindicator",
+    "name": "Vindicator",
+    "name_pl": "Obrońca",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 24,
+    "hearts": 12,
+    "filename": "Vindicator.png",
+    "image": "/hostile/Vindicator.png",
+    "image_path": "/public/hostile/Vindicator.png",
+    "src": "/hostile/Vindicator.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "7.5 - 19.5 (Iron Axe)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Woodland Mansions and Village Raids",
+    "spawn_pl": "Leśne dwory i najazdy na wioski",
+    "drops": [
+      "Iron Axe (rare)",
+      "Emerald"
+    ],
+    "drops_pl": [
+      "Żelazny topór (rzadko)",
+      "Szmaragd"
+    ],
+    "experience": 5,
+    "description": "A dangerous axe-wielding illager that sprints ruthlessly towards players and villagers. Capable of disabling shields with its heavy swings.",
+    "description_pl": "Niebezpieczny złosadnik wymachujący żelaznym toporem. Biegnie z wielką prędkością na wrogów i potrafi na chwilę ogłuszyć tarczę gracza."
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "name_pl": "Strażnik głębin",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 500,
+    "hearts": 250,
+    "filename": "Warden.gif",
+    "image": "/hostile/Warden.gif",
+    "image_path": "/public/hostile/Warden.gif",
+    "src": "/hostile/Warden.gif",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "16 - 45 (Melee) / 10 - 15 (Sonic Boom, pierces armor & shields)",
+    "dimensions": {
+      "height": 2.9,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Deep Dark (Summoned by 4 Sculk Shrieker triggers)",
+    "spawn_pl": "Mroczne głębiny (przywoływany przez 4 aktywacje rzeźbiarza skradania)",
+    "drops": [
+      "Sculk Catalyst"
+    ],
+    "drops_pl": [
+      "Katalizator skalkowy"
+    ],
+    "experience": 5,
+    "description": "A terrifying, blind subterranean behemoth that hunts purely by vibration and smell. Hits with immense physical force and unleashes an armor-piercing Sonic Boom.",
+    "description_pl": "Przerażający ślepy potwór z mrocznych głębin, tropiący ofiary za pomocą wibracji i węchu. Zadaje gigantyczne obrażenia i strzela sonicznym promieniem."
+  },
+  {
+    "id": "witch",
+    "name": "Witch",
+    "name_pl": "Wiedźma",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 26,
+    "hearts": 13,
+    "filename": "Witch.png",
+    "image": "/hostile/Witch.png",
+    "image_path": "/public/hostile/Witch.png",
+    "src": "/hostile/Witch.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "Splash Potions (Poison, Harming, Slowness, Weakness)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Swamp Huts, Raids, and Overworld darkness",
+    "spawn_pl": "Chatki na bagnach, najazdy i ciemne miejsca na powierzchni",
+    "drops": [
+      "Glowstone Dust",
+      "Redstone",
+      "Gunpowder",
+      "Spider Eye",
+      "Glass Bottle",
+      "Sugar",
+      "Stick"
+    ],
+    "drops_pl": [
+      "Jasnogłazowy pył",
+      "Czerwony proszek",
+      "Proch",
+      "Oko pająka",
+      "Szklana butelka",
+      "Cukier",
+      "Patyk"
+    ],
+    "experience": 5,
+    "description": "An alchemical illager hermit that hurls harmful splash potions at foes and quaffs healing and fire resistance brews to protect herself.",
+    "description_pl": "Złosadnicza alchemiczka rzucająca w gracza miotanymi miksturami trucizny i natychmiastowych obrażeń, jednocześnie lecząc samą siebie."
+  },
+  {
+    "id": "wither_skeleton",
+    "name": "Wither Skeleton",
+    "name_pl": "Mroczny szkielet",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Wither_Skeleton.png",
+    "image": "/hostile/Wither_Skeleton.png",
+    "image_path": "/public/hostile/Wither_Skeleton.png",
+    "src": "/hostile/Wither_Skeleton.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "5 - 12 (Stone Sword + Wither effect)",
+    "dimensions": {
+      "height": 2.4,
+      "width": 0.7
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether Fortresses",
+    "spawn_pl": "Twierdze w Netherze",
+    "drops": [
+      "Coal",
+      "Bone",
+      "Wither Skeleton Skull (rare 2.5%)",
+      "Stone Sword"
+    ],
+    "drops_pl": [
+      "Węgiel",
+      "Kość",
+      "Czaszka mrocznego szkieletu (2.5%)",
+      "Kamienny miecz"
+    ],
+    "experience": 5,
+    "description": "A tall, charcoal-black skeleton roaming Nether Fortresses with a stone sword. Inflicts the debilitating Wither effect; its skull is required to summon the Wither.",
+    "description_pl": "Wysoki, czarny szkielet z kamiennym mieczem patrolujący twierdze Netheru. Jego ciosy nakładają efekt Withera, a jego czaszki są niezbędne do przywołania bossa."
+  },
+  {
+    "id": "zoglin",
+    "name": "Zoglin",
+    "name_pl": "Zoglin",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 40,
+    "hearts": 20,
+    "filename": "Zoglin.png",
+    "image": "/hostile/Zoglin.png",
+    "image_path": "/public/hostile/Zoglin.png",
+    "src": "/hostile/Zoglin.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "5 - 12 (Tusk toss)",
+    "dimensions": {
+      "height": 1.4,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Created when a Hoglin enters the Overworld or The End for ~15 seconds",
+    "spawn_pl": "Powstaje, gdy hoglin przebywa w normalnym świecie lub Kresie przez ~15 sek.",
+    "drops": [
+      "Rotten Flesh"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso"
+    ],
+    "experience": 5,
+    "description": "A mindless, zombified hoglin born when a hoglin enters the Overworld. Highly aggressive, attacking virtually every mob in sight except creepers and other zoglins.",
+    "description_pl": "Zzombifikowany hoglin powstały po przeniesieniu do normalnego świata. Szaleńczo agresywny, atakuje niemal każde napotkane stworzenie."
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "name_pl": "Zombie",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Zombie.png",
+    "image": "/hostile/Zombie.png",
+    "image_path": "/public/hostile/Zombie.png",
+    "src": "/hostile/Zombie.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2.5 - 4.5",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld (Light level 0)",
+    "spawn_pl": "Powierzchnia (poziom światła 0)",
+    "drops": [
+      "Rotten Flesh",
+      "Iron Ingot (rare)",
+      "Carrot (rare)",
+      "Potato (rare)"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Sztabka żelaza (rzadko)",
+      "Marchewka (rzadko)",
+      "Ziemniak (rzadko)"
+    ],
+    "experience": 5,
+    "description": "The ubiquitous undead monster of Minecraft. Attacks players and villagers in groups and burns when exposed to morning sunlight.",
+    "description_pl": "Powszechny potwór nieumarły w świecie Minecrafta. W nocy poluje na graczy i osadników, a w promieniach słońca staje w płomieniach."
+  },
+  {
+    "id": "zombie_villager",
+    "name": "Zombie Villager",
+    "name_pl": "Osadnik zombie",
+    "category": "hostile",
+    "category_pl": "Wrogi",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Zombie_Villager.png",
+    "image": "/hostile/Zombie_Villager.png",
+    "image_path": "/public/hostile/Zombie_Villager.png",
+    "src": "/hostile/Zombie_Villager.png",
+    "behavior": "Hostile",
+    "behavior_pl": "Wrogi",
+    "attack": "2.5 - 4.5",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld (naturally or when a Villager is killed by a Zombie)",
+    "spawn_pl": "Powierzchnia (naturalnie lub po ugryzieniu osadnika przez zombie)",
+    "drops": [
+      "Rotten Flesh",
+      "Iron Ingot",
+      "Carrot",
+      "Potato"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Sztabka żelaza",
+      "Marchewka",
+      "Ziemniak"
+    ],
+    "experience": 5,
+    "description": "An unfortunate villager turned into an undead ghoul. Can be cured back into a productive villager using a Splash Potion of Weakness and a Golden Apple.",
+    "description_pl": "Przekształcony przez zombie nieszczęsny osadnik. Można go wyleczyć rzucając miksturę osłabienia i podając złote jabłko, co gwarantuje świetne zniżki w handlu."
+  },
+  {
+    "id": "bee",
+    "name": "Bee",
+    "name_pl": "Pszczoła",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Bee.gif",
+    "image": "/neutral/Bee.gif",
+    "image_path": "/public/neutral/Bee.gif",
+    "src": "/neutral/Bee.gif",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 - 3 + Poison (dies after stinging)",
+    "dimensions": {
+      "height": 0.6,
+      "width": 0.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Meadow, Plains, Sunflower Plains, Flower Forest",
+    "spawn_pl": "Łąka, równiny, słonecznikowe równiny, kwiecisty las",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "A fuzzy flying insect that collects pollen from flowers and brings it to beehives to produce honey. Attacks in swarms if provoked or if its hive is disturbed.",
+    "description_pl": "Puszysty latający owad zbierający pyłek z kwiatów i produkujący miód w ulu. Zaatakowany żądli gracza trucizną i po chwili sam ginie."
+  },
+  {
+    "id": "cave_spider",
+    "name": "Cave Spider",
+    "name_pl": "Pająk jaskiniowy",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 12,
+    "hearts": 6,
+    "filename": "Cave_Spider.png",
+    "image": "/neutral/Cave_Spider.png",
+    "image_path": "/public/neutral/Cave_Spider.png",
+    "src": "/neutral/Cave_Spider.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 - 3 + Poison",
+    "dimensions": {
+      "height": 0.5,
+      "width": 0.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Abandoned Mineshafts (from spawners)",
+    "spawn_pl": "Opuszczone kopalnie (ze spawnerów w pajęczynach)",
+    "drops": [
+      "String",
+      "Spider Eye"
+    ],
+    "drops_pl": [
+      "Nić",
+      "Oko pająka"
+    ],
+    "experience": 5,
+    "description": "A smaller, venomous blue spider lurking in abandoned mineshafts. It can squeeze through single-block gaps and inflicts poison upon biting.",
+    "description_pl": "Mniejszy, jadowity niebieskawy pająk czający się w opuszczonych kopalniach. Mieści się w wąskich szczelinach i zatruwa jadem."
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "name_pl": "Delfin",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Dolphin.gif",
+    "image": "/neutral/Dolphin.gif",
+    "image_path": "/public/neutral/Dolphin.gif",
+    "src": "/neutral/Dolphin.gif",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2.5 - 4.5 (Packs retaliate)",
+    "dimensions": {
+      "height": 0.6,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Non-frozen ocean biomes",
+    "spawn_pl": "Niezamarznięte oceany",
+    "drops": [
+      "Raw Cod"
+    ],
+    "drops_pl": [
+      "Surowy dorsz"
+    ],
+    "experience": 1,
+    "description": "Playful aquatic mammals that swim alongside players and grant the Dolphin's Grace swimming speed buff. Feeding them raw fish leads you to sunken treasures.",
+    "description_pl": "Wesoły ssak morski pływający w stadach. Nadaje graczowi efekt Łaski delfina ułatwiający pływanie, a nakarmiony rybą prowadzi do skarbów."
+  },
+  {
+    "id": "drowned",
+    "name": "Drowned",
+    "name_pl": "Utopiec",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Drowned.png",
+    "image": "/neutral/Drowned.png",
+    "image_path": "/public/neutral/Drowned.png",
+    "src": "/neutral/Drowned.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2.5 - 4.5 (Melee) / 5 - 12 (Trident thrown)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Oceans, Rivers, and Swamps (or when Zombies drown)",
+    "spawn_pl": "Oceany, rzeki i bagna (lub gdy zombie utonie)",
+    "drops": [
+      "Rotten Flesh",
+      "Copper Ingot",
+      "Trident (rare)",
+      "Nautilus Shell (rare)"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Sztabka miedzi",
+      "Trójząb (rzadko)",
+      "Muszla łodzika (rzadko)"
+    ],
+    "experience": 5,
+    "description": "Underwater zombies that swim rapidly and can spawn wielding powerful Tridents. Neutral on land during the day, but hostile in water and at night.",
+    "description_pl": "Podwodny zombie świetnie pływający w głębinach. Może posiadać potężny trójząb lub muszlę łodzika."
+  },
+  {
+    "id": "enderman",
+    "name": "Enderman",
+    "name_pl": "Enderman",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 40,
+    "hearts": 20,
+    "filename": "Enderman.png",
+    "image": "/neutral/Enderman.png",
+    "image_path": "/public/neutral/Enderman.png",
+    "src": "/neutral/Enderman.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "4.5 - 10.5",
+    "dimensions": {
+      "height": 2.9,
+      "width": 0.6
+    },
+    "dimension": [
+      "The End",
+      "Overworld",
+      "Nether"
+    ],
+    "spawn": "The End, Overworld (night), Nether (Warped Forest)",
+    "spawn_pl": "Kres, powierzchnia (noc), Nether (spaczony las)",
+    "drops": [
+      "Ender Pearl"
+    ],
+    "drops_pl": [
+      "Perła kresu"
+    ],
+    "experience": 5,
+    "description": "A tall, shadowy entity capable of teleporting and picking up blocks. Peaceful until you make direct eye contact with its face, which provokes a furious charge.",
+    "description_pl": "Wysoka, tajemnicza istota potrafiąca się teleportować i przenosić bloki. Wpada w szał, gdy spojrzy się jej prosto w oczy."
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "name_pl": "Lis",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Fox.png",
+    "image": "/neutral/Fox.png",
+    "image_path": "/public/neutral/Fox.png",
+    "src": "/neutral/Fox.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 (Pounce)",
+    "dimensions": {
+      "height": 0.7,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Taiga, Snowy Taiga, Old Growth Taiga, Grove",
+    "spawn_pl": "Tajga, ośnieżona tajga, gaje",
+    "drops": [
+      "Held mouth item"
+    ],
+    "drops_pl": [
+      "Przedmiot trzymany w pysku"
+    ],
+    "experience": 1,
+    "description": "An agile, nocturnal woodland mammal that pounces on chickens and rabbits, holds items in its mouth, and defends trusted players who bred them with sweet berries.",
+    "description_pl": "Zwinne leśne zwierzę skaczące na króliki i kurczaki. Może trzymać w pyszczku znalezione przedmioty i zasypiać pod drzewami."
+  },
+  {
+    "id": "goat",
+    "name": "Goat",
+    "name_pl": "Koza",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Goat.png",
+    "image": "/neutral/Goat.png",
+    "image_path": "/public/neutral/Goat.png",
+    "src": "/neutral/Goat.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "1 - 3 (High knockback ram attack)",
+    "dimensions": {
+      "height": 1.3,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Mountain biomes (Frozen Peaks, Jagged Peaks, Snowy Slopes)",
+    "spawn_pl": "Górskie szczyty i ośnieżone stoki",
+    "drops": [
+      "Goat Horn (when ramming solid blocks)"
+    ],
+    "drops_pl": [
+      "Róg kozy (po uderzeniu w twardy blok)"
+    ],
+    "experience": 1,
+    "description": "High-jumping mountain animals that scale sheer cliffs and take reduced fall damage. Occasionally charges and violently rams stationary mobs and players off ledges.",
+    "description_pl": "Górskie zwierzę skaczące na wysokość kilku bloków. Czasami bierze rozbieg i potężnie taranuje graczy lub inne stworzenia."
+  },
+  {
+    "id": "iron_golem",
+    "name": "Iron Golem",
+    "name_pl": "Żelazny golem",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 100,
+    "hearts": 50,
+    "filename": "Iron_Golem.png",
+    "image": "/neutral/Iron_Golem.png",
+    "image_path": "/public/neutral/Iron_Golem.png",
+    "src": "/neutral/Iron_Golem.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "7.5 - 31.5 (Massive toss)",
+    "dimensions": {
+      "height": 2.7,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Villages (defenders) or crafted by player with 4 Iron Blocks and Carved Pumpkin",
+    "spawn_pl": "Wioski (obrońcy) lub wytwarzany z 4 bloków żelaza i dyni",
+    "drops": [
+      "Iron Ingot",
+      "Poppy"
+    ],
+    "drops_pl": [
+      "Sztabka żelaza",
+      "Mak"
+    ],
+    "experience": 0,
+    "description": "A gigantic mechanical protector built of iron. Village-spawned golems tirelessly protect villagers and retaliate with crushing swings against players who harm the community.",
+    "description_pl": "Potężny kolos ze stali strzegący wiosek przed potworami. Podrzuca przeciwników wysoko w powietrze potężnymi uderzeniami ramion."
+  },
+  {
+    "id": "llama",
+    "name": "Llama",
+    "name_pl": "Lama",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Llama.png",
+    "image": "/neutral/Llama.png",
+    "image_path": "/public/neutral/Llama.png",
+    "src": "/neutral/Llama.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "1 (Spit)",
+    "dimensions": {
+      "height": 1.87,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Windswept Hills and Savanna biomes",
+    "spawn_pl": "Górzyste wzgórza i sawanna",
+    "drops": [
+      "Leather"
+    ],
+    "drops_pl": [
+      "Skóra"
+    ],
+    "experience": 1,
+    "description": "Pack animals that can be tamed, equipped with decorative carpets, and loaded with chests. They form caravans and spit defensively at wolves and aggressors.",
+    "description_pl": "Zwierzę juczne, które można oswoić i wyposażyć w skrzynie oraz kolorowe dywany. Tworzy karawany i pluje w napastników."
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "name_pl": "Łodzik",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Nautilus.gif",
+    "image": "/neutral/Nautilus.gif",
+    "image_path": "/public/neutral/Nautilus.gif",
+    "src": "/neutral/Nautilus.gif",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 - 3",
+    "dimensions": {
+      "height": 0.9,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Ocean biomes (Mounts of Mayhem variant)",
+    "spawn_pl": "Głębiny oceaniczne (aktualizacja Mounts of Mayhem)",
+    "drops": [
+      "Nautilus Shell"
+    ],
+    "drops_pl": [
+      "Muszla łodzika"
+    ],
+    "experience": 2,
+    "description": "A mysterious shelled cephalopod gliding through the ocean depths. Can be tamed and ridden underwater, granting players the Breath of the Nautilus effect.",
+    "description_pl": "Tajemniczy głowonóg w muszli sunący przez głębiny oceanu. Można go oswoić i dosiadać pod wodą, co pozwala oddychać bez ograniczeń."
+  },
+  {
+    "id": "panda",
+    "name": "Panda",
+    "name_pl": "Panda",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Panda.png",
+    "image": "/neutral/Panda.png",
+    "image_path": "/public/neutral/Panda.png",
+    "src": "/neutral/Panda.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "4 - 9 (Aggressive variant)",
+    "dimensions": {
+      "height": 1.25,
+      "width": 1.3
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Bamboo Jungles",
+    "spawn_pl": "Bambusowe dżungle",
+    "drops": [
+      "Bamboo",
+      "Slimeball (baby sneeze)"
+    ],
+    "drops_pl": [
+      "Bambus",
+      "Kula szlamu (kichnięcie małej pandy)"
+    ],
+    "experience": 1,
+    "description": "Lovable bears with diverse personalities: normal, lazy, playful, worried, aggressive, weak, or rare brown. They roll around and munch on fresh bamboo.",
+    "description_pl": "Uroczy miś o różnych osobowościach (leniwa, figlarna, zmartwiona, agresywna, brązowa). Uwielbia chrupać pędy bambusa i turlać się po trawie."
+  },
+  {
+    "id": "piglin",
+    "name": "Piglin",
+    "name_pl": "Piglin",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Piglin.png",
+    "image": "/neutral/Piglin.png",
+    "image_path": "/public/neutral/Piglin.png",
+    "src": "/neutral/Piglin.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "3 - 8 (Sword) / 2 - 4 (Crossbow)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Crimson Forest, Nether Wastes, Bastions)",
+    "spawn_pl": "Nether (Szkarłatny las, pustkowia, bastiony)",
+    "drops": [
+      "Barter goods (for gold ingots)",
+      "Raw Porkchop"
+    ],
+    "drops_pl": [
+      "Towary z wymiany (za złoto)",
+      "Surowa wieprzowina"
+    ],
+    "experience": 5,
+    "description": "Gold-obsessed Nether inhabitants that will barter valuable items when given gold ingots. Peaceful if the player wears gold armor, but attacks if chests are opened.",
+    "description_pl": "Mieszkaniec Netheru zakochany w złocie. Chętnie handluje cennymi skarbami za sztabki złota, o ile gracz nosi złoty element pancerza."
+  },
+  {
+    "id": "polar_bear",
+    "name": "Polar Bear",
+    "name_pl": "Niedźwiedź polarny",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 30,
+    "hearts": 15,
+    "filename": "Polar_Bear.png",
+    "image": "/neutral/Polar_Bear.png",
+    "image_path": "/public/neutral/Polar_Bear.png",
+    "src": "/neutral/Polar_Bear.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "4 - 9 (Maul)",
+    "dimensions": {
+      "height": 1.4,
+      "width": 1.3
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Ice Spikes, Frozen Ocean, Snowy Plains",
+    "spawn_pl": "Lodowe kolce, zamarznięte oceany, ośnieżone równiny",
+    "drops": [
+      "Raw Cod",
+      "Raw Salmon"
+    ],
+    "drops_pl": [
+      "Surowy dorsz",
+      "Surowy łosoś"
+    ],
+    "experience": 2,
+    "description": "A majestic arctic predator that wanders snowy ice sheets. Generally peaceful unless provoked or when protecting nearby cubs.",
+    "description_pl": "Majestatyczny drapieżnik arktyczny wędrujący po lodowych pustkowiach. Spokojny, chyba że w pobliżu znajduje się jego małe dziecko."
+  },
+  {
+    "id": "pufferfish",
+    "name": "Pufferfish",
+    "name_pl": "Rozdymka",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 3,
+    "hearts": 1.5,
+    "filename": "Pufferfish.gif",
+    "image": "/neutral/Pufferfish.gif",
+    "image_path": "/public/neutral/Pufferfish.gif",
+    "src": "/neutral/Pufferfish.gif",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 - 4 + Poison IV",
+    "dimensions": {
+      "height": 0.35,
+      "width": 0.35
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Warm Ocean biomes",
+    "spawn_pl": "Ciepłe oceany",
+    "drops": [
+      "Pufferfish"
+    ],
+    "drops_pl": [
+      "Rozdymka"
+    ],
+    "experience": 1,
+    "description": "A small fish that dramatically inflates when players or mobs get too close, inflicting dangerous Poison IV upon physical contact.",
+    "description_pl": "Mała ryba, która nadyma się w obliczu zagrożenia i zatruwa każdego, kto nieopatrznie się do niej zbliży."
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "name_pl": "Pająk",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Spider.png",
+    "image": "/neutral/Spider.png",
+    "image_path": "/public/neutral/Spider.png",
+    "src": "/neutral/Spider.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "2 - 3 (Pounce)",
+    "dimensions": {
+      "height": 0.9,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Overworld (Light level 0)",
+    "spawn_pl": "Powierzchnia (poziom światła 0)",
+    "drops": [
+      "String",
+      "Spider Eye"
+    ],
+    "drops_pl": [
+      "Nić",
+      "Oko pająka"
+    ],
+    "experience": 5,
+    "description": "An eight-legged arachnid that climbs walls and pounces. It is hostile in darkness or low light, but becomes neutral in daylight.",
+    "description_pl": "Ośmionożny stawonóg wspinający się po pionowych ścianach. Wrogi w ciemności, lecz neutralny w świetle dziennym."
+  },
+  {
+    "id": "trader_llama",
+    "name": "Trader Llama",
+    "name_pl": "Lama handlarza",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Trader_Llama.png",
+    "image": "/neutral/Trader_Llama.png",
+    "image_path": "/public/neutral/Trader_Llama.png",
+    "src": "/neutral/Trader_Llama.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "1 (Spit)",
+    "dimensions": {
+      "height": 1.87,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Spawns led by Wandering Traders",
+    "spawn_pl": "Pojawia się na smyczy wędrownego handlarza",
+    "drops": [
+      "Leather",
+      "Lead"
+    ],
+    "drops_pl": [
+      "Skóra",
+      "Smycz"
+    ],
+    "experience": 1,
+    "description": "A stylishly outfitted llama adorned with unique blue rugs that accompanies Wandering Traders and spits at hostile threats.",
+    "description_pl": "Ubrana w charakterystyczny niebieski dywan lama towarzysząca wędrownemu handlarzowi i plująca w zagrażające mu potwory."
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "name_pl": "Wilk",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 8,
+    "hearts": 4,
+    "filename": "Wolf.png",
+    "image": "/neutral/Wolf.png",
+    "image_path": "/public/neutral/Wolf.png",
+    "src": "/neutral/Wolf.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "Wild: 3 - 4 / Tamed: 4 - 6",
+    "dimensions": {
+      "height": 0.85,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Forests, Taiga, Grove, Savanna, Badlands (9 unique regional variants)",
+    "spawn_pl": "Lasy, tajga, sawanna, badlandy (9 wariantów biomowych)",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 2,
+    "description": "A loyal pack canine that can be tamed with bones into a faithful companion dog. Attacks targets alongside its owner and can wear wolf armor.",
+    "description_pl": "Wierny czworonóg, którego można oswoić kośćmi. Jako pies broni swojego właściciela i może nosić pancerną zbroję dla wilka."
+  },
+  {
+    "id": "zombie_nautilus",
+    "name": "Zombie Nautilus",
+    "name_pl": "Łodzik zombie",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Zombie_Nautilus.gif",
+    "image": "/neutral/Zombie_Nautilus.gif",
+    "image_path": "/public/neutral/Zombie_Nautilus.gif",
+    "src": "/neutral/Zombie_Nautilus.gif",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "3 - 5",
+    "dimensions": {
+      "height": 0.9,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Ocean depths and Coral Reefs (Mounts of Mayhem)",
+    "spawn_pl": "Głębiny oceaniczne i rafy koralowe (Mounts of Mayhem)",
+    "drops": [
+      "Rotten Flesh",
+      "Nautilus Shell"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Muszla łodzika"
+    ],
+    "experience": 5,
+    "description": "An undead nautilus originally mounted by Drowned riders. Defeating the rider allows players to tame it with pufferfish and ride it underwater with nautilus armor.",
+    "description_pl": "Nieumarły łodzik ujeżdżany przez utopca. Po pokonaniu jeźdźca można go oswoić rozdymką i wyposażyć w siodło oraz zbroję."
+  },
+  {
+    "id": "zombified_piglin",
+    "name": "Zombified Piglin",
+    "name_pl": "Zombifikowany piglin",
+    "category": "neutral",
+    "category_pl": "Neutralny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Zombified_Piglin.png",
+    "image": "/neutral/Zombified_Piglin.png",
+    "image_path": "/public/neutral/Zombified_Piglin.png",
+    "src": "/neutral/Zombified_Piglin.png",
+    "behavior": "Neutral",
+    "behavior_pl": "Neutralny",
+    "attack": "5 - 12 (Golden Sword)",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether (Nether Wastes, Crimson Forest), Nether Portals in Overworld",
+    "spawn_pl": "Nether (Pustkowia Netheru, Szkarłatny las), portale do Netheru",
+    "drops": [
+      "Rotten Flesh",
+      "Gold Nugget",
+      "Gold Ingot (rare)",
+      "Golden Sword (rare)"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso",
+      "Bryłka złota",
+      "Sztabka złota (rzadko)",
+      "Złoty miecz"
+    ],
+    "experience": 5,
+    "description": "A peaceful undead humanoid pig roaming the Nether with a golden sword. If even one is attacked, the entire swarm within a huge radius turns enraged and attacks simultaneously.",
+    "description_pl": "Spokojny nieumarły ze złotym mieczem. Gdy zaatakujesz choćby jednego, wszystkie pobliskie osobniki wpadną w furię i rzucą się na Ciebie chmarą."
+  },
+  {
+    "id": "allay",
+    "name": "Allay",
+    "name_pl": "Otuch",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Allay.gif",
+    "image": "/passive/Allay.gif",
+    "image_path": "/public/passive/Allay.gif",
+    "src": "/passive/Allay.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.6,
+      "width": 0.35
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Pillager Outposts (cages) and Woodland Mansions",
+    "spawn_pl": "Klatki w posterunkach rozbójników i leśne dwory",
+    "drops": [
+      "Held item"
+    ],
+    "drops_pl": [
+      "Trzymany przedmiot"
+    ],
+    "experience": 0,
+    "description": "A friendly, glowing blue spirit that flies through the air. Give it an item, and it will joyfully gather matching dropped items in the area and deliver them to you or a note block.",
+    "description_pl": "Błękitny latający duszek. Daj mu dowolny przedmiot, a zacznie zbierać z ziemi wszystkie jego kopie i przynosić je tobie lub do bloku dźwiękowego."
+  },
+  {
+    "id": "armadillo",
+    "name": "Armadillo",
+    "name_pl": "Pancernik",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 12,
+    "hearts": 6,
+    "filename": "Armadillo.png",
+    "image": "/passive/Armadillo.png",
+    "image_path": "/public/passive/Armadillo.png",
+    "src": "/passive/Armadillo.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.65,
+      "width": 0.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Savanna and Badlands biomes",
+    "spawn_pl": "Sawanny i badlandy",
+    "drops": [
+      "Armadillo Scute (brushed)"
+    ],
+    "drops_pl": [
+      "Tarcza pancernika (po wyczesaniu szczotką)"
+    ],
+    "experience": 1,
+    "description": "A gentle creature native to warm savannas that rolls into a protective ball when startled. Brushing it yields armadillo scutes used to craft wolf armor.",
+    "description_pl": "Spokojne zwierzę z ciepłych sawann, które zwija się w pancerną kulę w razie zagrożenia. Czesanie go szczotką daje tarcze do wyrobu zbroi dla wilka."
+  },
+  {
+    "id": "axolotl",
+    "name": "Axolotl",
+    "name_pl": "Aksolotl",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 14,
+    "hearts": 7,
+    "filename": "Axolotl.gif",
+    "image": "/passive/Axolotl.gif",
+    "image_path": "/public/passive/Axolotl.gif",
+    "src": "/passive/Axolotl.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "2 (against aquatic mobs)",
+    "dimensions": {
+      "height": 0.42,
+      "width": 0.75
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Lush Caves (in water above clay)",
+    "spawn_pl": "Bujne jaskinie (w wodzie nad gliną)",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "An adorable amphibian found in lush cave waters. It attacks underwater mobs, plays dead to regenerate health when injured, and grants players Regeneration in combat.",
+    "description_pl": "Uroczy płaz z bujnych jaskiń. Walczy z morskimi potworami, udaje martwego aby szybko zregenerować zdrowie i wspomaga gracza regeneracją."
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "name_pl": "Nietoperz",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 6,
+    "hearts": 3,
+    "filename": "Bat.gif",
+    "image": "/passive/Bat.gif",
+    "image_path": "/public/passive/Bat.gif",
+    "src": "/passive/Bat.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.9,
+      "width": 0.5
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Dark caves underground",
+    "spawn_pl": "Ciemne podziemne jaskinie",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 0,
+    "description": "An ambient nocturnal flyer fluttering through dark caverns and squeaking softly. Hangs upside down from solid ceilings to sleep.",
+    "description_pl": "Niewielki latający ssak zamieszkujący ciemne jaskinie. Wypoczywa wisząc do góry nogami pod sklepieniem jaskini."
+  },
+  {
+    "id": "camel",
+    "name": "Camel",
+    "name_pl": "Wielbłąd",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 32,
+    "hearts": 16,
+    "filename": "Camel.gif",
+    "image": "/passive/Camel.gif",
+    "image_path": "/public/passive/Camel.gif",
+    "src": "/passive/Camel.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 2.375,
+      "width": 1.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Desert Villages",
+    "spawn_pl": "Wioski pustynne",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "A tall desert mount that seats two players simultaneously. Its great height protects riders from normal zombie attacks, and it can perform a horizontal sprint dash.",
+    "description_pl": "Wysoki wierzchowiec pustynny mieszczący dwóch graczy jednocześnie. Jego wzrost chroni przed ciosami zwykłych zombie, a sam potrafi wykonywać daleki skok."
+  },
+  {
+    "id": "camel_husk",
+    "name": "Camel Husk",
+    "name_pl": "Wielbłąd posuch",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 32,
+    "hearts": 16,
+    "filename": "Camel_Husk.gif",
+    "image": "/passive/Camel_Husk.gif",
+    "image_path": "/public/passive/Camel_Husk.gif",
+    "src": "/passive/Camel_Husk.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 2.375,
+      "width": 1.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Deserts at night (Mounts of Mayhem variant)",
+    "spawn_pl": "Pustynie nocą (aktualizacja Mounts of Mayhem)",
+    "drops": [
+      "Rotten Flesh"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso"
+    ],
+    "experience": 1,
+    "description": "An undead variant of the camel that roams desert nights carrying hostile Husks and Parched riders. Once cleared of hostiles, it can be tamed and does not burn in sunlight.",
+    "description_pl": "Nieumarły wariant wielbłąda dosiadany przez posuchy i parchedów. Po pokonaniu jeźdźców można go oswoić, a sam nie ulega spaleniu w dzień."
+  },
+  {
+    "id": "cat",
+    "name": "Cat",
+    "name_pl": "Kot",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Cat.png",
+    "image": "/passive/Cat.png",
+    "image_path": "/public/passive/Cat.png",
+    "src": "/passive/Cat.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.7,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Villages and Swamp Huts",
+    "spawn_pl": "Wioski i chatki na bagnach",
+    "drops": [
+      "String"
+    ],
+    "drops_pl": [
+      "Nić"
+    ],
+    "experience": 1,
+    "description": "A lovable feline tamed with raw fish. Creepers and phantoms avoid cats at all costs, and tamed cats bring gift items to their sleeping owner at dawn.",
+    "description_pl": "Udomowiony kot oswajany surową rybą. Odstrasza creepery i fantomy, a o poranku przynosi swojemu właścicielowi drobne prezenty."
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "name_pl": "Kurczak",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 4,
+    "hearts": 2,
+    "filename": "Chicken.png",
+    "image": "/passive/Chicken.png",
+    "image_path": "/public/passive/Chicken.png",
+    "src": "/passive/Chicken.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.7,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Grassy biomes",
+    "spawn_pl": "Trawiaste biomy na powierzchni",
+    "drops": [
+      "Raw Chicken",
+      "Feather",
+      "Egg (periodic)"
+    ],
+    "drops_pl": [
+      "Surowy kurczak",
+      "Pióro",
+      "Jajko (okresowo)"
+    ],
+    "experience": 1,
+    "description": "A common farm bird that flaps its wings to glide gently downwards, completely immune to fall damage. Lays eggs periodically.",
+    "description_pl": "Powszechny ptak hodowlany machający skrzydłami przy spadaniu, dzięki czemu nie odnosi obrażeń od upadku. Regularnie znosi jajka."
+  },
+  {
+    "id": "clownfish",
+    "name": "Tropical Fish (Clownfish)",
+    "name_pl": "Ryba tropikalna (Błazenek)",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 3,
+    "hearts": 1.5,
+    "filename": "Clownfish.png",
+    "image": "/passive/Clownfish.png",
+    "image_path": "/public/passive/Clownfish.png",
+    "src": "/passive/Clownfish.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.4,
+      "width": 0.5
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Warm Oceans, Mangrove Swamps, Lush Caves",
+    "spawn_pl": "Ciepłe oceany, namorzyny, bujne jaskinie",
+    "drops": [
+      "Tropical Fish"
+    ],
+    "drops_pl": [
+      "Ryba tropikalna"
+    ],
+    "experience": 1,
+    "description": "A vibrant, colorful tropical reef fish with thousands of pattern and color variants. Can be scooped into a water bucket.",
+    "description_pl": "Kolorowa ryba rafowa występująca w tysiącach barwnych wzorów. Można ją złapać do wiadra z wodą."
+  },
+  {
+    "id": "cod",
+    "name": "Cod",
+    "name_pl": "Dorsz",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 3,
+    "hearts": 1.5,
+    "filename": "Cod.gif",
+    "image": "/passive/Cod.gif",
+    "image_path": "/public/passive/Cod.gif",
+    "src": "/passive/Cod.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.3,
+      "width": 0.5
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Cold, normal, and lukewarm oceans",
+    "spawn_pl": "Zimne, umiarkowane i ciepławe oceany",
+    "drops": [
+      "Raw Cod",
+      "Bone Meal (rare)"
+    ],
+    "drops_pl": [
+      "Surowy dorsz",
+      "Mączka kostna (rzadko)"
+    ],
+    "experience": 1,
+    "description": "A schooling ocean fish found swimming in cold and temperate waters. Essential food source and cat-taming treat.",
+    "description_pl": "Ryba pływająca w ławicach w oceanach. Podstawowe pożywienie oraz przysmak służący do oswajania kotów."
+  },
+  {
+    "id": "copper_golem",
+    "name": "Copper Golem",
+    "name_pl": "Miedziany golem",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Copper_Golem.png",
+    "image": "/passive/Copper_Golem.png",
+    "image_path": "/public/passive/Copper_Golem.png",
+    "src": "/passive/Copper_Golem.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.2,
+      "width": 0.8
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Crafted with Copper Blocks and Lightning Rod (Mob vote / Add-on)",
+    "spawn_pl": "Tworzony z miedzi i piorunochronu (zwycięzca serc fanów)",
+    "drops": [
+      "Copper Ingot"
+    ],
+    "drops_pl": [
+      "Sztabka miedzi"
+    ],
+    "experience": 1,
+    "description": "A curious little automaton made of copper. Loves pressing copper buttons and slowly oxidizes into a statue over time unless scraped with an axe.",
+    "description_pl": "Ciekawski robocik z bloków miedzi. Uwielbia wciskać miedziane przyciski i stopniowo pokrywa się patyną, zamieniając się w posąg."
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "name_pl": "Krowa",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Cow.png",
+    "image": "/passive/Cow.png",
+    "image_path": "/public/passive/Cow.png",
+    "src": "/passive/Cow.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.4,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Grassy biomes",
+    "spawn_pl": "Trawiaste biomy lądowe",
+    "drops": [
+      "Raw Beef",
+      "Leather"
+    ],
+    "drops_pl": [
+      "Surowa wołowina",
+      "Skóra"
+    ],
+    "experience": 1,
+    "description": "A classic farm animal bred with wheat. Can be milked infinitely with an iron bucket to cure all negative status effects.",
+    "description_pl": "Klasyczne zwierzę hodowlane rozmnażane pszenicą. Daje mleko w wiadrze, które natychmiast usuwa wszelkie efekty mikstur."
+  },
+  {
+    "id": "donkey",
+    "name": "Donkey",
+    "name_pl": "Osioł",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Donkey.png",
+    "image": "/passive/Donkey.png",
+    "image_path": "/public/passive/Donkey.png",
+    "src": "/passive/Donkey.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.5,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Plains and Savanna",
+    "spawn_pl": "Równiny i sawanna",
+    "drops": [
+      "Leather"
+    ],
+    "drops_pl": [
+      "Skóra"
+    ],
+    "experience": 1,
+    "description": "A reliable pack animal related to the horse. Can be equipped with a saddle to ride and a chest to carry 15 extra inventory slots.",
+    "description_pl": "Pomocne zwierzę juczne, które po oswojeniu można wyposażyć w siodło do jazdy oraz skrzynię z 15 dodatkowymi slotami ekwipunku."
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "name_pl": "Żaba",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Frog.gif",
+    "image": "/passive/Frog.gif",
+    "image_path": "/public/passive/Frog.gif",
+    "src": "/passive/Frog.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.55,
+      "width": 0.5
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Swamps and Mangrove Swamps",
+    "spawn_pl": "Bagna i bagna namorzynowe",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "An energetic hopper with three climate variants (temperate, warm, cold). Consumes tiny slimes and magma cubes, producing decorative Froglight blocks.",
+    "description_pl": "Wesoły płaz występujący w 3 odmianach klimatycznych. Zjada małe kostki magmy, tworząc świecące bloki żabiego światła."
+  },
+  {
+    "id": "glow_squid",
+    "name": "Glow Squid",
+    "name_pl": "Świecąca kałamarnica",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Glow_Squid.gif",
+    "image": "/passive/Glow_Squid.gif",
+    "image_path": "/public/passive/Glow_Squid.gif",
+    "src": "/passive/Glow_Squid.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.8,
+      "width": 0.8
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Deep underground water bodies",
+    "spawn_pl": "Głębokie podziemne zbiorniki wodne",
+    "drops": [
+      "Glow Ink Sac"
+    ],
+    "drops_pl": [
+      "Świecący worek z barwnikiem"
+    ],
+    "experience": 1,
+    "description": "A shimmering cephalopod found in deep dark underwater caves. Drops glow ink sacs used to make glowing sign text and luminous item frames.",
+    "description_pl": "Migoczący głowonóg żyjący w ciemnych podziemnych jeziorach. Upuszcza świecący atrament używany do rozświetlania tabliczek i ramek."
+  },
+  {
+    "id": "happy_ghast",
+    "name": "Happy Ghast",
+    "name_pl": "Wesoły ghast",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Happy_Ghast.gif",
+    "image": "/passive/Happy_Ghast.gif",
+    "image_path": "/public/passive/Happy_Ghast.gif",
+    "src": "/passive/Happy_Ghast.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 4,
+      "width": 4
+    },
+    "dimension": [
+      "Nether",
+      "Overworld"
+    ],
+    "spawn": "Hatched from Dried Ghast blocks hydrated in water (Chase the Skies update)",
+    "spawn_pl": "Wykluwa się z wysuszonych bloków ghasta po nawodnieniu (aktualizacja Chase the Skies)",
+    "drops": [
+      "Ghast Tear"
+    ],
+    "drops_pl": [
+      "Łza ghasta"
+    ],
+    "experience": 2,
+    "description": "A joyful, gentle flying giant raised from a ghastling. Serves as a friendly aerial mount to soar across high skies.",
+    "description_pl": "Przyjazny, uśmiechnięty latający olbrzym wyhodowany z małego ghastlinga. Służy graczom jako bezpieczny latający środek transportu."
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "name_pl": "Koń",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 24,
+    "hearts": 12,
+    "filename": "Horse.png",
+    "image": "/passive/Horse.png",
+    "image_path": "/public/passive/Horse.png",
+    "src": "/passive/Horse.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.6,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Plains, Sunflower Plains, and Savannas",
+    "spawn_pl": "Równiny, słonecznikowe pola i sawanny",
+    "drops": [
+      "Leather"
+    ],
+    "drops_pl": [
+      "Skóra"
+    ],
+    "experience": 1,
+    "description": "The premier land transport in Minecraft. Each horse has unique speed, health, and jump height ratings, and can wear protective horse armor.",
+    "description_pl": "Najlepszy lądowy wierzchowiec w grze. Każdy osobnik ma unikalną szybkość, wysokość skoku i punkty życia, a także może nosić końską zbroję."
+  },
+  {
+    "id": "mooshroom",
+    "name": "Mooshroom",
+    "name_pl": "Muchomorowa krowa",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Mooshroom.png",
+    "image": "/passive/Mooshroom.png",
+    "image_path": "/public/passive/Mooshroom.png",
+    "src": "/passive/Mooshroom.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.4,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Mushroom Fields biome",
+    "spawn_pl": "Biom grzybowy (Grzybowe pola)",
+    "drops": [
+      "Raw Beef",
+      "Leather",
+      "Mushrooms (sheared)"
+    ],
+    "drops_pl": [
+      "Surowa wołowina",
+      "Skóra",
+      "Czerwone grzyby (po ostrzyżeniu)"
+    ],
+    "experience": 1,
+    "description": "A mushroom-covered cow endemic to rare Mushroom Fields. Bowls milk mushroom stew directly from it, and feeding it flowers yields Suspicious Stew.",
+    "description_pl": "Niezwykła krowa porośnięta grzybami z pól grzybowych. Użycie miski daje pożywną zupę grzybową, a nakarmienie kwiatem - podejrzaną potrawkę."
+  },
+  {
+    "id": "mule",
+    "name": "Mule",
+    "name_pl": "Muł",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Mule.png",
+    "image": "/passive/Mule.png",
+    "image_path": "/public/passive/Mule.png",
+    "src": "/passive/Mule.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.6,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Bred by crossbreeding a Horse with a Donkey",
+    "spawn_pl": "Krzyżówka konia i osła",
+    "drops": [
+      "Leather"
+    ],
+    "drops_pl": [
+      "Skóra"
+    ],
+    "experience": 1,
+    "description": "A cross between a horse and a donkey. Combines the riding speed of a horse with the chest-carrying utility of a donkey.",
+    "description_pl": "Krzyżówka konia i osła łącząca dobrą prędkość wierzchowca z możliwością przewożenia skrzyń z ekwipunkiem."
+  },
+  {
+    "id": "ocelot",
+    "name": "Ocelot",
+    "name_pl": "Ocelot",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Ocelot.png",
+    "image": "/passive/Ocelot.png",
+    "image_path": "/public/passive/Ocelot.png",
+    "src": "/passive/Ocelot.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "2 (against chickens)",
+    "dimensions": {
+      "height": 0.7,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Jungle biomes",
+    "spawn_pl": "Biomy dżungli",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "A shy wild jungle predator that stalks chickens and baby turtles. Feeding it raw fish gains its trust, causing it to stop fleeing and deter creepers.",
+    "description_pl": "Płochliwy dziki kot z tropikalnej dżungli. Nakarmienie go surową rybą budzi jego zaufanie, dzięki czemu odstrasza creepery."
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot",
+    "name_pl": "Papuga",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 6,
+    "hearts": 3,
+    "filename": "Parrot.png",
+    "image": "/passive/Parrot.png",
+    "image_path": "/public/passive/Parrot.png",
+    "src": "/passive/Parrot.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.9,
+      "width": 0.5
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Jungle biomes",
+    "spawn_pl": "Dżungle",
+    "drops": [
+      "Feather"
+    ],
+    "drops_pl": [
+      "Pióro"
+    ],
+    "experience": 1,
+    "description": "A colourful companion tamed with seeds. Perches on your shoulder, mimics nearby monster noises to warn you, and dances to jukeboxes. Never feed them cookies!",
+    "description_pl": "Barwny ptak oswajany nasionami. Siada na ramieniu gracza, naśladuje głosy potworów i tańczy przy szafie grającej. Ciasteczka są dla niej trujące!"
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "name_pl": "Świnia",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Pig.png",
+    "image": "/passive/Pig.png",
+    "image_path": "/public/passive/Pig.png",
+    "src": "/passive/Pig.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.9,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Grassy plains and forests",
+    "spawn_pl": "Równiny i lasy",
+    "drops": [
+      "Raw Porkchop"
+    ],
+    "drops_pl": [
+      "Surowa wieprzowina"
+    ],
+    "experience": 1,
+    "description": "A beloved pink farm mob that loves carrots and potatoes. Can be ridden using a saddle and steered with a carrot on a stick.",
+    "description_pl": "Różowe zwierzę hodowlane uwielbiające marchewki i ziemniaki. Założenie siodła i wędki z marchewką pozwala na nim jeździć."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "name_pl": "Królik",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 3,
+    "hearts": 1.5,
+    "filename": "Rabbit.png",
+    "image": "/passive/Rabbit.png",
+    "image_path": "/public/passive/Rabbit.png",
+    "src": "/passive/Rabbit.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.5,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Deserts, Taigas, Plains, Meadows",
+    "spawn_pl": "Pustynie, tajgi, łąki",
+    "drops": [
+      "Raw Rabbit",
+      "Rabbit's Hide",
+      "Rabbit's Foot (rare)"
+    ],
+    "drops_pl": [
+      "Surowy królik",
+      "Królicza skóra",
+      "Królicza łapka (rzadko)"
+    ],
+    "experience": 1,
+    "description": "A quick, hopping critter that munches on wild carrot crops. Its rare foot drop is an essential ingredient in brewing Potion of Leaping.",
+    "description_pl": "Szybki, płochliwy skoczek podjadający marchewki z grządek. Z jego łapki warzy się miksturę skoku."
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "name_pl": "Łosoś",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 3,
+    "hearts": 1.5,
+    "filename": "Salmon.gif",
+    "image": "/passive/Salmon.gif",
+    "image_path": "/public/passive/Salmon.gif",
+    "src": "/passive/Salmon.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.4,
+      "width": 0.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Cold Oceans and Rivers",
+    "spawn_pl": "Zimne oceany i rzeki",
+    "drops": [
+      "Raw Salmon",
+      "Bone Meal (rare)"
+    ],
+    "drops_pl": [
+      "Surowy łosoś",
+      "Mączka kostna (rzadko)"
+    ],
+    "experience": 1,
+    "description": "An energetic river fish that swims upstream against currents. Spawns in three different sizes: small, medium, and large.",
+    "description_pl": "Rzeczna ryba potrafiąca płynąć w górę wodospadów pod prąd. Występuje w trzech rozmiarach: małym, średnim i dużym."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep",
+    "name_pl": "Owca",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 8,
+    "hearts": 4,
+    "filename": "Sheep.png",
+    "image": "/passive/Sheep.png",
+    "image_path": "/public/passive/Sheep.png",
+    "src": "/passive/Sheep.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.3,
+      "width": 0.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Grassy biomes",
+    "spawn_pl": "Trawiaste biomy",
+    "drops": [
+      "Wool",
+      "Raw Mutton"
+    ],
+    "drops_pl": [
+      "Wełna",
+      "Surowa baranina"
+    ],
+    "experience": 1,
+    "description": "The primary source of wool and beds. Comes in 16 natural and dyed colors, and regrows its fleece whenever it grazes on grass blocks.",
+    "description_pl": "Podstawowe źródło wełny do budowy łóżek. Występuje w 16 kolorach, a po ostrzyżeniu odzyskuje runo jedząc trawę."
+  },
+  {
+    "id": "skeleton_horse",
+    "name": "Skeleton Horse",
+    "name_pl": "Szkielet konia",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 15,
+    "hearts": 7.5,
+    "filename": "Skeleton_Horse.png",
+    "image": "/passive/Skeleton_Horse.png",
+    "image_path": "/public/passive/Skeleton_Horse.png",
+    "src": "/passive/Skeleton_Horse.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.6,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Skeleton Traps during thunderstorms",
+    "spawn_pl": "Szkieletowe pułapki podczas burzy z piorunami",
+    "drops": [
+      "Bone"
+    ],
+    "drops_pl": [
+      "Kość"
+    ],
+    "experience": 1,
+    "description": "A mystical skeletal steed spawned from thunderstorm lightning traps. It can gallop and breathe completely submerged underwater.",
+    "description_pl": "Niezwykły kościany wierzchowiec powstający podczas burzy. Może bez trudu poruszać się i oddychać pod wodą."
+  },
+  {
+    "id": "sniffer",
+    "name": "Sniffer",
+    "name_pl": "Wąchacz",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 14,
+    "hearts": 7,
+    "filename": "Sniffer.gif",
+    "image": "/passive/Sniffer.gif",
+    "image_path": "/public/passive/Sniffer.gif",
+    "src": "/passive/Sniffer.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.75,
+      "width": 1.9
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Hatched from Sniffer Eggs found in Warm Ocean Ruins",
+    "spawn_pl": "Wykluwa się z jaja znalezionego w ciepłych ruinach oceanicznych",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "An ancient, gentle giant revived from fossilized eggs. It sniffs the terrain and digs into the soil to uncover rare ancient seeds like Torchflower and Pitcher Pods.",
+    "description_pl": "Starożytny łagodny gigant wykluwający się z pradawnych jaj. Węszy w ziemi i wykopuje nasiona zapomnianych prehistorycznych roślin."
+  },
+  {
+    "id": "snow_golem",
+    "name": "Snow Golem",
+    "name_pl": "Śnieżny golem",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 4,
+    "hearts": 2,
+    "filename": "Snow_Golem.png",
+    "image": "/passive/Snow_Golem.png",
+    "image_path": "/public/passive/Snow_Golem.png",
+    "src": "/passive/Snow_Golem.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0 (Snowballs knockback; damages Blazes)",
+    "dimensions": {
+      "height": 1.9,
+      "width": 0.7
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Crafted by placing a Carved Pumpkin atop 2 Snow Blocks",
+    "spawn_pl": "Tworzony z 2 bloków śniegu i dyni",
+    "drops": [
+      "Snowball"
+    ],
+    "drops_pl": [
+      "Śnieżka"
+    ],
+    "experience": 0,
+    "description": "A crafted utility mob that throws harmless snowballs to distract monsters. Leaves a trail of snow in its wake and melts in hot biomes and rain.",
+    "description_pl": "Sztuczny strażnik rzucający śnieżkami w potwory. Zostawia za sobą dywan ze śniegu i roztapia się w gorących biomach oraz podczas deszczu."
+  },
+  {
+    "id": "squid",
+    "name": "Squid",
+    "name_pl": "Kałamarnica",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 10,
+    "hearts": 5,
+    "filename": "Squid.gif",
+    "image": "/passive/Squid.gif",
+    "image_path": "/public/passive/Squid.gif",
+    "src": "/passive/Squid.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.8,
+      "width": 0.8
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Rivers and Oceans",
+    "spawn_pl": "Rzeki i oceany",
+    "drops": [
+      "Ink Sac"
+    ],
+    "drops_pl": [
+      "Worek z atramentem"
+    ],
+    "experience": 1,
+    "description": "A passive aquatic mollusk drifting through rivers and oceans. When attacked, it discharges an ink cloud and dashes swiftly away.",
+    "description_pl": "Morski mięczak pływający w rzekach i oceanach. W razie ataku wyrzuca chmurę czarnego atramentu i ucieka."
+  },
+  {
+    "id": "strider",
+    "name": "Strider",
+    "name_pl": "Kroczak",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Strider.gif",
+    "image": "/passive/Strider.gif",
+    "image_path": "/public/passive/Strider.gif",
+    "src": "/passive/Strider.gif",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.7,
+      "width": 0.9
+    },
+    "dimension": [
+      "Nether"
+    ],
+    "spawn": "Nether Lava Oceans",
+    "spawn_pl": "Lawa w Netherze",
+    "drops": [
+      "String"
+    ],
+    "drops_pl": [
+      "Nić"
+    ],
+    "experience": 1,
+    "description": "A two-legged passive Nether creature that effortlessly walks on lava. Saddle it and steer with Warped Fungus on a Stick to traverse molten seas safely.",
+    "description_pl": "Dziwaczne stworzenie z Netheru chodzące po powierzchni wrzącej lawy. Z siodłem i wędką ze spaczonym grzybem służy jako bezpieczny transport."
+  },
+  {
+    "id": "sulfur_cube",
+    "name": "Sulfur Cube",
+    "name_pl": "Kostka siarki",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 16,
+    "hearts": 8,
+    "filename": "Sulfur_Cube.png",
+    "image": "/passive/Sulfur_Cube.png",
+    "image_path": "/public/passive/Sulfur_Cube.png",
+    "src": "/passive/Sulfur_Cube.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1,
+      "width": 1
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Sulfur caves / Chaos Cubed drop",
+    "spawn_pl": "Jaskinie siarkowe (aktualizacja Chaos Cubed)",
+    "drops": [
+      "Sulfur",
+      "Gunpowder"
+    ],
+    "drops_pl": [
+      "Siarka",
+      "Proch"
+    ],
+    "experience": 1,
+    "description": "A bouncy physics-driven cube made of compressed sulfur. It bounces off walls and reacts with dynamic properties when fed minerals.",
+    "description_pl": "Sprężysta kostka siarkowa o unikalnej fizyce odbijania. Reaguje na różne minerały i doskonale nadaje się do szalonych konstrukcji."
+  },
+  {
+    "id": "tadpole",
+    "name": "Tadpole",
+    "name_pl": "Kijanka",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 6,
+    "hearts": 3,
+    "filename": "Tadpole.png",
+    "image": "/passive/Tadpole.png",
+    "image_path": "/public/passive/Tadpole.png",
+    "src": "/passive/Tadpole.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.8,
+      "width": 0.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Hatched from Frogspawn in water",
+    "spawn_pl": "Wykluwa się ze skrzeku żab w wodzie",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 1,
+    "description": "The baby stage of frogs that swims rapidly in water and flails on dry land. Can be carried in a water bucket and matures into a frog matching its growth biome.",
+    "description_pl": "Młoda postać żaby pływająca w wodzie. Można ją zebrać do wiadra z wodą; wyrasta na żabę odpowiadającą temperaturze biomu."
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "name_pl": "Żółw",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 30,
+    "hearts": 15,
+    "filename": "Turtle.png",
+    "image": "/passive/Turtle.png",
+    "image_path": "/public/passive/Turtle.png",
+    "src": "/passive/Turtle.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 0.4,
+      "width": 1.2
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Warm beaches and oceans",
+    "spawn_pl": "Ciepłe plaże i oceany",
+    "drops": [
+      "Seagrass",
+      "Scute (when baby grows into adult)"
+    ],
+    "drops_pl": [
+      "Trawa morska",
+      "Tarcza żółwia (gdy mały żółw dorasta)"
+    ],
+    "experience": 1,
+    "description": "A peaceful reptile that lays eggs on its natal home beach. Baby turtles shed scutes upon maturing into adults, which are crafted into the Turtle Shell helmet.",
+    "description_pl": "Oceany i piaszczyste plaże to dom żółwi morskich. Dorastające małe żółwie zrzucają tarcze, z których tworzy się hełm z żółwiej skorupy."
+  },
+  {
+    "id": "villager",
+    "name": "Villager",
+    "name_pl": "Osadnik",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Villager.png",
+    "image": "/passive/Villager.png",
+    "image_path": "/public/passive/Villager.png",
+    "src": "/passive/Villager.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Villages (Plains, Desert, Savanna, Taiga, Snowy)",
+    "spawn_pl": "Wioski (równiny, pustynia, sawanna, tajga, śnieżna)",
+    "drops": [],
+    "drops_pl": [],
+    "experience": 0,
+    "description": "Peaceful NPCs inhabiting villages throughout the world. They take up professions at workstations, farm crops, sleep, and trade valuable resources for emeralds.",
+    "description_pl": "Spokojny mieszkaniec wiosek. Podejmuje pracę przy stanowiskach roboczych, uprawia rolę i wymienia cenne surowce za szmaragdy."
+  },
+  {
+    "id": "wandering_trader",
+    "name": "Wandering Trader",
+    "name_pl": "Wędrowny handlarz",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 20,
+    "hearts": 10,
+    "filename": "Wandering_Trader.png",
+    "image": "/passive/Wandering_Trader.png",
+    "image_path": "/public/passive/Wandering_Trader.png",
+    "src": "/passive/Wandering_Trader.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.95,
+      "width": 0.6
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Periodically spawns near players in the Overworld",
+    "spawn_pl": "Pojawia się okresowo w pobliżu gracza na powierzchni",
+    "drops": [
+      "Lead",
+      "Milk Bucket / Invisibility Potion (if drinking)"
+    ],
+    "drops_pl": [
+      "Smycz",
+      "Wiadro mleka / Mikstura niewidzialności (podczas picia)"
+    ],
+    "experience": 0,
+    "description": "A nomadic merchant accompanied by two Trader Llamas. Offers exotic biome flora, dyes, and rare goods for emeralds, drinking invisibility potions at dusk.",
+    "description_pl": "Podróżujący kupiec z dwiema lamami na smyczy. Sprzedaje egzotyczne rośliny, sadzonki i barwniki, a nocą pije miksturę niewidzialności."
+  },
+  {
+    "id": "zombie_horse",
+    "name": "Zombie Horse",
+    "name_pl": "Koń zombie",
+    "category": "passive",
+    "category_pl": "Pasywny",
+    "hp": 15,
+    "hearts": 7.5,
+    "filename": "Zombie_Horse.png",
+    "image": "/passive/Zombie_Horse.png",
+    "image_path": "/public/passive/Zombie_Horse.png",
+    "src": "/passive/Zombie_Horse.png",
+    "behavior": "Passive",
+    "behavior_pl": "Pasywny",
+    "attack": "0",
+    "dimensions": {
+      "height": 1.6,
+      "width": 1.4
+    },
+    "dimension": [
+      "Overworld"
+    ],
+    "spawn": "Creative mode / Commands / Spawner",
+    "spawn_pl": "Tryb kreatywny / komendy / spawner",
+    "drops": [
+      "Rotten Flesh"
+    ],
+    "drops_pl": [
+      "Zgniłe mięso"
+    ],
+    "experience": 1,
+    "description": "An unused, green-skinned undead equoid variant with rotting flesh and glowing eyes.",
+    "description_pl": "Zzieleniały, nieumarły wariant konia o rozkładającym się ciele i tajemniczym wyglądzie."
+  }
+]

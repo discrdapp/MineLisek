@@ -1,0 +1,744 @@
+@font-face {
+	font-family: minecraft;
+	src: url('./assets/Minecraft.ttf');
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url('./assets/background.png');
+	background-repeat: repeat;
+	background-size: 64px 64px;
+	position: relative;
+	z-index:-2;
+}
+
+.video-wrapper {
+	position: fixed;
+	inset: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.video-wrapper > .panorama {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	display: block;
+	cursor: pointer;
+}
+
+.przyciskMenu {
+	background: url('./assets/buttonBackground.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 50px;
+	margin: 10px 0;
+	font-family: minecraft;
+	color: #fff;
+	text-shadow: 2px 2px 0px #0000009a;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border: 3px solid #000000;
+}
+
+.przyciskMenu.disabled {
+	background: url('./assets/buttonBackground_Disabled.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: not-allowed;
+	color: #838383;
+}
+
+.przyciskMenu.disabled:hover {
+	border: 3px solid #000000;
+}
+
+.przyciskMenu:hover {
+	border: 3px solid #fff;
+}
+
+.buttonWrapper {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.lewyDolny {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	font-family: minecraft;
+}
+
+.prawyDolny {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	font-family: minecraft;
+}
+
+.logoWrapper {
+	padding: 100px;
+	overflow: hidden;
+}
+
+.logo {
+	position: relative;
+}
+
+.logo img {
+	width: 1000px;
+	height: auto;
+}
+
+.randomText {
+	font-family: minecraft;
+	color: #f2f52c;
+	text-shadow: 2px 2px 0px #0000009a;
+	font-size: 40px;
+
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+
+	width: max-content;
+	transform: translateX(50%) rotate(-20deg);
+	transform-origin: center center;
+
+	animation: randomTextAnimation 0.8s ease-in-out infinite alternate;
+
+	pointer-events: none;
+}
+
+@keyframes randomTextAnimation {
+	from {
+		scale: 1;
+	}
+
+	to {
+		scale: 1.1;
+	}
+}
+
+.iconButton {
+	background: url('./assets/buttonBackground.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+	padding: 0 !important;
+	border: 3px solid #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconButton.krecsie img {
+	animation: krec 0.2s ease;
+}
+
+@keyframes krec {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.iconButton:hover {
+	border: 3px solid #fff;
+}
+
+.iconButton img {
+	height: 65%;
+	width: auto;
+	pointer-events: none;
+}
+
+.a-none {
+	text-decoration: none;
+	color: inherit;
+}
+
+.a-wieksze {
+	width: 50%;
+}
+
+.a-mniejsze {
+	width: 24.75%;
+}
+
+.backgroundWrapper {
+	height: 100%;
+	width: 100%;
+	background: url('./assets/background.png');
+	background-repeat: repeat;
+	background-size: 64px 64px;
+}
+
+.h-15 {
+	height: 15%;
+	flex-shrink: 0;
+}
+
+.r-1 {
+	background: #00000057;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-bottom: 2px solid #83838357;
+}
+
+.r-2 {
+	background: #000000a6;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-top: 2px solid #000000d0;
+	border-bottom: 2px solid #000000d0;
+	min-height: 0;
+}
+
+.r-3 {
+	background: #00000057;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-top: 2px solid #83838357;
+}
+
+.mobkiWrapper {
+	overflow-y: auto;
+	min-height: 0;
+	gap: 20px;
+	justify-content: center;
+}
+
+.mobkiWrapper::-webkit-scrollbar {
+	width: 16px;
+}
+
+.mobkiWrapper::-webkit-scrollbar-track {
+	background: url('./assets/scroll-background.webp');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.mobkiWrapper::-webkit-scrollbar-thumb {
+	background: url('./assets/scroll.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.wyjdzZeStrony {
+	width: 24.75%;
+}
+
+.przyciskMenu {
+	position: relative;
+	overflow: hidden;
+}
+
+.przyciskMenu.animacja {
+	animation: leave 0.5s ease-in-out forwards;
+}
+
+.przyciskMenu.animacja::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: red;
+	opacity: 0;
+	pointer-events: none;
+	animation: redOverlay 0.5s ease-in-out forwards;
+}
+
+@keyframes leave {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	15%,
+	45%,
+	75% {
+		transform: translateX(-4px);
+	}
+	30%,
+	60% {
+		transform: translateX(4px);
+	}
+}
+
+@keyframes redOverlay {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.mobek {
+	width: 300px;
+	height: 300px;
+	background: url('./assets/mobekBackground.png');
+	background-size: 100% 100%;
+	image-rendering: pixelated;
+	padding: 60px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.mobek:hover {
+	background: url('./assets/mobekBackground_Hover.png');
+	background-size: 100% 100%;
+}
+
+.mobek.pressed {
+	background: url('./assets/mobekBackground_Pressed.png');
+	background-size: 100% 100%;
+}
+
+.mobek img {
+	width: auto;
+	height: 80%;
+}
+
+.mobekName {
+	font-family: minecraft;
+	color: #fff;
+	text-shadow: 2px 2px 0px #0000009a;
+	font-size: 25px;
+	margin-top: 10px;
+	background: #00000057;
+	width: 300px;
+	text-align: center;
+	-webkit-text-stroke: 6px #000;
+	paint-order: stroke fill;
+}
+
+.no-drag {
+	-webkit-user-drag: none;
+	user-drag: none;
+
+	/* Blokuje również zaznaczanie elementu (ważne dla Firefoksa) */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.modalImage {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.modalImage img {
+	width: 100%;
+	max-height: 400px;
+	object-fit: contain;
+}
+.Hostile {
+	color: rgb(255, 0, 0);
+	text-shadow: rgba(255, 0, 0, 0.9) 0px 0px 39px;
+}
+
+.Passive {
+	color: #2eff27;
+	text-shadow: rgba(46, 255, 39, 0.9) 0px 0px 39px;
+}
+
+.Boss {
+	color: #ffe600;
+	text-shadow: rgba(255, 230, 0, 0.9) 0px 0px 39px;
+}
+
+.Neutral {
+	color: #2f89ff;
+	text-shadow: rgba(47, 137, 255, 0.9) 0px 0px 39px;
+}
+
+.modalName {
+	font-family: minecraft;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.mobekModal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.65);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	padding: 16px;
+}
+
+.mobekModalContent {
+	position: relative;
+	background: rgba(0, 0, 0, 0.45);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(11.2px);
+	-webkit-backdrop-filter: blur(11.2px);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 24px;
+	width: 65%;
+	max-width: 950px;
+	max-height: 90vh;
+	overflow-y: auto;
+	color: #fff;
+}
+
+.modalCloseBtn {
+	position: absolute;
+	top: 14px;
+	right: 18px;
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+.modalCloseBtn:hover {
+	opacity: 1;
+}
+
+.modalBody {
+	display: flex;
+	align-items: stretch;
+}
+
+.modalLeft {
+	flex: 0 0 38%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid rgba(255, 255, 255, 0.12);
+	padding-right: 20px;
+}
+
+.modalRight {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+.heartsWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+	width: 100%;
+}
+
+.heartsGrid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2px;
+	max-width: 220px;
+}
+
+.heartSlot {
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+
+.heartBg,
+.heartFg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	image-rendering: pixelated;
+}
+
+.halfHeart {
+	clip-path: inset(0 50% 0 0);
+}
+
+.hpText {
+	font-family: minecraft, monospace;
+	font-size: 0.85rem;
+	color: #ccc;
+}
+
+/* Right Side Details */
+.modalDescription {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	color: #e2e2e2;
+	margin: 0;
+	font-family: minecraft;
+}
+
+.modalStatsGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.statBox {
+	background: rgba(255, 255, 255, 0.06);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	padding: 10px 14px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.statLabel {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #aaa;
+}
+
+.statValue {
+	font-family: minecraft;
+	font-size: 0.95rem;
+	color: #fff;
+}
+
+.modalInfoSection h4 {
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	color: #aaa;
+	margin: 0 0 6px 0;
+}
+
+.modalInfoSection p {
+	font-family: minecraft;
+	margin: 0;
+	font-size: 0.95rem;
+}
+
+.dropsList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dropsList li {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 4px 10px;
+	border-radius: 6px;
+	font-size: 0.85rem;
+	font-family: minecraft;
+}
+
+.noDrops {
+	color: #888;
+	font-style: italic;
+}
+
+@media screen and (max-width: 720px) {
+	.mobekModalContent {
+		width: 98%;
+		padding: 16px;
+	}
+
+	.modalBody {
+		flex-direction: column;
+	}
+
+	.modalRight {
+		width: 100% !important;
+		padding-left: 0px;
+		padding-top: 20px;
+	}
+
+	.modalLeft {
+		border-right: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+		padding-right: 0;
+		padding-bottom: 16px;
+		width: 100% !important;
+	}
+}
+
+.searchInput {
+	background: url('./assets/textBackground.webp');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: none;
+	caret-color: #fff;
+	height: 50px;
+	width: 400px;
+	color: #fff;
+	font-family: minecraft;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.searchInput:focus {
+	background: url('./assets/textBackground_highlighted.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.searchText {
+	font-family: minecraft;
+	color: #fff;
+	font-size: 25px;
+}
+
+.a-opcje-mniejsze {
+	width: 50%;
+	display: flex;
+}
+
+@media screen and (max-width: 520px) {
+	.a-opcje-mniejsze {
+		width: 100%;
+	}
+}
+
+.a-opcje-wieksze {
+	width: 95%;
+	display: flex;
+}
+
+.gap-opcje {
+	gap: 30%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	background: transparent;
+	cursor: pointer;
+	width: 100%;
+	z-index: 2;
+}
+
+/* Removes default focus */
+.slider:focus {
+	outline: none;
+}
+
+/* slider track */
+.sliderBackground {
+	background: url('./assets/buttonBackground_Disabled.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 3px solid #000000;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+}
+
+.slider::-webkit-slider-runnable-track:focus {
+	border: 3px solid #fff;
+}
+
+/* slider thumb */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	background: url('assets/slider.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 3px solid #000000;
+	height: 48px;
+	width: 1rem;
+	z-index: 5;
+}
+
+.slider:focus::-webkit-slider-thumb {
+	border: 3px solid #fff;
+}
+
+.sliderText {
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	transform: translate(-50%, 50%);
+	color: #fff;
+	font-family: minecraft;
+	opacity: 0.7;
+	font-size: 25px;
+	pointer-events: none;
+	z-index: 1;
+	text-wrap: nowrap;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.jezyki {
+	gap: 0px!important;
+	justify-content: start!important;
+}
+
+
+.jezykRow {
+	font-family: minecraft;
+	color: #fff;
+	height: 50px;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+
+.jezykRow.selected {
+	background: #000;
+	border: 2px solid #838383;
+}
+
+.nazywanieInput {
+	width: 50%;
+	margin: 10px 0;
+}
+
+.opcjeText {
+	position: absolute;
+	top: 10%;
+	left: 49%;
+	font-family: minecraft;
+	color: #fff;
+	font-size: 25px;
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
