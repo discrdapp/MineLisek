@@ -12,9 +12,9 @@ export function AppProvider({ children }) {
 		return Number(localStorage.getItem('volume') ?? 0.2)
 	})
 
-  const [imie, setImie] = useState(() => {
-    return localStorage.getItem('imie') || null
-  })
+	const [imie, setImie] = useState(() => {
+		return localStorage.getItem('imie') || null
+	})
 
 	const isPL = lang == 'pl'
 
@@ -22,9 +22,10 @@ export function AppProvider({ children }) {
 		localStorage.setItem('app_lang', lang)
 	}, [lang])
 
-
 	useEffect(() => {
-		localStorage.setItem('imie', imie)
+		if (imie !== null) {
+			localStorage.setItem('imie', imie)
+		}
 	}, [imie])
 
 	function changeVolume(x) {
